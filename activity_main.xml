@@ -4,8 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:padding="20dp"
-    android:background="#B0E0E6">
+    android:padding="20dp">
 
     <EditText
         android:id="@+id/location"
@@ -14,9 +13,16 @@
         android:layout_height="wrap_content"/>
 
     <Button
-        android:text="Show Map"
-        android:onClick="showMap"
-        android:layout_marginTop="20dp"
+        android:text="Given Location"
+        android:onClick="givenLocation"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="Current Location"
+        android:onClick="currentLocation"
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
